@@ -1,0 +1,9 @@
+[playlist]
+File1=http://4103.live.streamtheworld.com:80/AUTORADIOAAC_SC
+File2=http://4103.live.streamtheworld.com:3690/AUTORADIOAAC_SC
+File3=http://4103.live.streamtheworld.com:443/AUTORADIOAAC_SC
+Title1=AUTORADIOAAC_SC
+Title2=AUTORADIOAAC_SC-Bak
+Length1=-1
+NumberOfEntries=3
+Version=2

@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0698C0AD1A9C7A0B0077D67A /* AUTORADIOAAC.pls in Resources */ = {isa = PBXBuildFile; fileRef = 0698C0AC1A9C7A0B0077D67A /* AUTORADIOAAC.pls */; };
+		8E1733081A977DFD00C55DD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1733051A977DFD00C55DD8 /* Default-568h@2x.png */; };
+		8E1733091A977DFD00C55DD8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1733061A977DFD00C55DD8 /* Default.png */; };
+		8E17330A1A977DFD00C55DD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1733071A977DFD00C55DD8 /* Default@2x.png */; };
+		9F343766B7F429764DB1FF17 /* libPods-AutoRadioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4837B209E0FB97CC6CB729 /* libPods-AutoRadioTests.a */; };
+		BAA689941B3B05900088424B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BAA689931B3B05900088424B /* Podfile */; };
+		E21237CC1A8E2CF9000E8574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E21237CB1A8E2CF9000E8574 /* main.m */; };
+		E21237CF1A8E2CF9000E8574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E21237CE1A8E2CF9000E8574 /* AppDelegate.m */; };
+		E21237D21A8E2CF9000E8574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21237D11A8E2CF9000E8574 /* ViewController.m */; };
+		E21237D51A8E2CF9000E8574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21237D31A8E2CF9000E8574 /* Main.storyboard */; };
+		E21237D71A8E2CF9000E8574 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21237D61A8E2CF9000E8574 /* Images.xcassets */; };
+		E21237DA1A8E2CF9000E8574 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21237D81A8E2CF9000E8574 /* LaunchScreen.xib */; };
+		E21237E61A8E2CFA000E8574 /* AutoRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E21237E51A8E2CFA000E8574 /* AutoRadioTests.m */; };
+		E21237F01A8E3E7C000E8574 /* Avto_logo_103_2_eng_full-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E21237EF1A8E3E7C000E8574 /* Avto_logo_103_2_eng_full-01.jpg */; };
+		E26E5C911A94BFC3005C3C26 /* background_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5C901A94BFC3005C3C26 /* background_1.png */; };
+		E26E5C9C1A9712B1005C3C26 /* btn_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5C961A9712B1005C3C26 /* btn_facebook.png */; };
+		E26E5C9D1A9712B1005C3C26 /* btn_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5C971A9712B1005C3C26 /* btn_facebook@2x.png */; };
+		E26E5C9E1A9712B1005C3C26 /* btn_instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5C981A9712B1005C3C26 /* btn_instagram.png */; };
+		E26E5C9F1A9712B1005C3C26 /* btn_instagram@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5C991A9712B1005C3C26 /* btn_instagram@2x.png */; };
+		E26E5CA01A9712B1005C3C26 /* btn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5C9A1A9712B1005C3C26 /* btn_play.png */; };
+		E26E5CA11A9712B1005C3C26 /* btn_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5C9B1A9712B1005C3C26 /* btn_play@2x.png */; };
+		E26E5CA41A971510005C3C26 /* btn_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5CA21A971510005C3C26 /* btn_stop.png */; };
+		E26E5CA51A971510005C3C26 /* btn_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5CA31A971510005C3C26 /* btn_stop@2x.png */; };
+		E26E5CAA1A972554005C3C26 /* btn_call.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5CA61A972554005C3C26 /* btn_call.png */; };
+		E26E5CAB1A972554005C3C26 /* btn_call@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5CA71A972554005C3C26 /* btn_call@2x.png */; };
+		E26E5CAC1A972554005C3C26 /* btn_SMS.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5CA81A972554005C3C26 /* btn_SMS.png */; };
+		E26E5CAD1A972554005C3C26 /* btn_SMS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E26E5CA91A972554005C3C26 /* btn_SMS@2x.png */; };
+		E26E5CAF1A973B68005C3C26 /* background.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E26E5CAE1A973B68005C3C26 /* background.PNG */; };
+		E2CE862C1A8F5D040057C52E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CE862B1A8F5D040057C52E /* PlayViewController.m */; };
+		EE4D31A21FD9B072000A81BC /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4D31A11FD9B072000A81BC /* splash.png */; };
+		F9229B21CF851A28A888220F /* libPods-AutoRadio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC81F6E9C9DBCA32E148E8EE /* libPods-AutoRadio.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E21237E01A8E2CFA000E8574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21237BE1A8E2CF9000E8574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E21237C51A8E2CF9000E8574;
+			remoteInfo = AutoRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0698C0AC1A9C7A0B0077D67A /* AUTORADIOAAC.pls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTORADIOAAC.pls; sourceTree = "<group>"; };
+		167BA78FD229D92E15103403 /* Pods-AutoRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRadio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRadio/Pods-AutoRadio.debug.xcconfig"; sourceTree = "<group>"; };
+		18857355ED8FF1CB98CF81F1 /* Pods-AutoRadioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRadioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRadioTests/Pods-AutoRadioTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B25A8742CA6305EFD1D1C1E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		30920D397B4E0B5E58DB77AD /* Pods-AutoRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRadio.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRadio/Pods-AutoRadio.release.xcconfig"; sourceTree = "<group>"; };
+		8E1733051A977DFD00C55DD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E1733061A977DFD00C55DD8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E1733071A977DFD00C55DD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD4837B209E0FB97CC6CB729 /* libPods-AutoRadioTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoRadioTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA689931B3B05900088424B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC81F6E9C9DBCA32E148E8EE /* libPods-AutoRadio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoRadio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7410BE9F8E23B3A0108259 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E21237C61A8E2CF9000E8574 /* Auto Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21237CA1A8E2CF9000E8574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21237CB1A8E2CF9000E8574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E21237CD1A8E2CF9000E8574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E21237CE1A8E2CF9000E8574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E21237D01A8E2CF9000E8574 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E21237D11A8E2CF9000E8574 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E21237D41A8E2CF9000E8574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E21237D61A8E2CF9000E8574 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E21237D91A8E2CF9000E8574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E21237DF1A8E2CFA000E8574 /* AutoRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21237E41A8E2CFA000E8574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21237E51A8E2CFA000E8574 /* AutoRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoRadioTests.m; sourceTree = "<group>"; };
+		E21237EF1A8E3E7C000E8574 /* Avto_logo_103_2_eng_full-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Avto_logo_103_2_eng_full-01.jpg"; sourceTree = "<group>"; };
+		E26E5C901A94BFC3005C3C26 /* background_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_1.png; sourceTree = "<group>"; };
+		E26E5C961A9712B1005C3C26 /* btn_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebook.png; sourceTree = "<group>"; };
+		E26E5C971A9712B1005C3C26 /* btn_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_facebook@2x.png"; sourceTree = "<group>"; };
+		E26E5C981A9712B1005C3C26 /* btn_instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_instagram.png; sourceTree = "<group>"; };
+		E26E5C991A9712B1005C3C26 /* btn_instagram@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_instagram@2x.png"; sourceTree = "<group>"; };
+		E26E5C9A1A9712B1005C3C26 /* btn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_play.png; sourceTree = "<group>"; };
+		E26E5C9B1A9712B1005C3C26 /* btn_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_play@2x.png"; sourceTree = "<group>"; };
+		E26E5CA21A971510005C3C26 /* btn_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_stop.png; sourceTree = "<group>"; };
+		E26E5CA31A971510005C3C26 /* btn_stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_stop@2x.png"; sourceTree = "<group>"; };
+		E26E5CA61A972554005C3C26 /* btn_call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_call.png; sourceTree = "<group>"; };
+		E26E5CA71A972554005C3C26 /* btn_call@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_call@2x.png"; sourceTree = "<group>"; };
+		E26E5CA81A972554005C3C26 /* btn_SMS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_SMS.png; sourceTree = "<group>"; };
+		E26E5CA91A972554005C3C26 /* btn_SMS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_SMS@2x.png"; sourceTree = "<group>"; };
+		E26E5CAE1A973B68005C3C26 /* background.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.PNG; sourceTree = "<group>"; };
+		E2CE862A1A8F5D040057C52E /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		E2CE862B1A8F5D040057C52E /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		EE4D31A11FD9B072000A81BC /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		F28BD6FE58EDFD34586A251D /* Pods-AutoRadioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRadioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRadioTests/Pods-AutoRadioTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E21237C31A8E2CF9000E8574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9229B21CF851A28A888220F /* libPods-AutoRadio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21237DC1A8E2CFA000E8574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F343766B7F429764DB1FF17 /* libPods-AutoRadioTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B2603354C56ED40FB2C329D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE7410BE9F8E23B3A0108259 /* Pods.debug.xcconfig */,
+				2B25A8742CA6305EFD1D1C1E /* Pods.release.xcconfig */,
+				167BA78FD229D92E15103403 /* Pods-AutoRadio.debug.xcconfig */,
+				30920D397B4E0B5E58DB77AD /* Pods-AutoRadio.release.xcconfig */,
+				F28BD6FE58EDFD34586A251D /* Pods-AutoRadioTests.debug.xcconfig */,
+				18857355ED8FF1CB98CF81F1 /* Pods-AutoRadioTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E21237BD1A8E2CF9000E8574 = {
+			isa = PBXGroup;
+			children = (
+				BAA689931B3B05900088424B /* Podfile */,
+				E21237C81A8E2CF9000E8574 /* AutoRadio */,
+				E21237E21A8E2CFA000E8574 /* AutoRadioTests */,
+				E21237C71A8E2CF9000E8574 /* Products */,
+				E26E5C8F1A94BD55005C3C26 /* Images */,
+				9B2603354C56ED40FB2C329D /* Pods */,
+				E5E1776F2308C42825AE6CBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E21237C71A8E2CF9000E8574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E21237C61A8E2CF9000E8574 /* Auto Radio.app */,
+				E21237DF1A8E2CFA000E8574 /* AutoRadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21237C81A8E2CF9000E8574 /* AutoRadio */ = {
+			isa = PBXGroup;
+			children = (
+				0698C0AC1A9C7A0B0077D67A /* AUTORADIOAAC.pls */,
+				E21237CD1A8E2CF9000E8574 /* AppDelegate.h */,
+				E21237CE1A8E2CF9000E8574 /* AppDelegate.m */,
+				E21237D01A8E2CF9000E8574 /* ViewController.h */,
+				E21237D11A8E2CF9000E8574 /* ViewController.m */,
+				E21237D31A8E2CF9000E8574 /* Main.storyboard */,
+				E2CE862A1A8F5D040057C52E /* PlayViewController.h */,
+				E2CE862B1A8F5D040057C52E /* PlayViewController.m */,
+				E21237D61A8E2CF9000E8574 /* Images.xcassets */,
+				E21237D81A8E2CF9000E8574 /* LaunchScreen.xib */,
+				E21237C91A8E2CF9000E8574 /* Supporting Files */,
+			);
+			path = AutoRadio;
+			sourceTree = "<group>";
+		};
+		E21237C91A8E2CF9000E8574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21237EF1A8E3E7C000E8574 /* Avto_logo_103_2_eng_full-01.jpg */,
+				E21237CA1A8E2CF9000E8574 /* Info.plist */,
+				E21237CB1A8E2CF9000E8574 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E21237E21A8E2CFA000E8574 /* AutoRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				E21237E51A8E2CFA000E8574 /* AutoRadioTests.m */,
+				E21237E31A8E2CFA000E8574 /* Supporting Files */,
+			);
+			path = AutoRadioTests;
+			sourceTree = "<group>";
+		};
+		E21237E31A8E2CFA000E8574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21237E41A8E2CFA000E8574 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E26E5C8F1A94BD55005C3C26 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E1733051A977DFD00C55DD8 /* Default-568h@2x.png */,
+				EE4D31A11FD9B072000A81BC /* splash.png */,
+				8E1733061A977DFD00C55DD8 /* Default.png */,
+				8E1733071A977DFD00C55DD8 /* Default@2x.png */,
+				E26E5CAE1A973B68005C3C26 /* background.PNG */,
+				E26E5CA61A972554005C3C26 /* btn_call.png */,
+				E26E5CA71A972554005C3C26 /* btn_call@2x.png */,
+				E26E5CA81A972554005C3C26 /* btn_SMS.png */,
+				E26E5CA91A972554005C3C26 /* btn_SMS@2x.png */,
+				E26E5CA21A971510005C3C26 /* btn_stop.png */,
+				E26E5CA31A971510005C3C26 /* btn_stop@2x.png */,
+				E26E5C961A9712B1005C3C26 /* btn_facebook.png */,
+				E26E5C971A9712B1005C3C26 /* btn_facebook@2x.png */,
+				E26E5C981A9712B1005C3C26 /* btn_instagram.png */,
+				E26E5C991A9712B1005C3C26 /* btn_instagram@2x.png */,
+				E26E5C9A1A9712B1005C3C26 /* btn_play.png */,
+				E26E5C9B1A9712B1005C3C26 /* btn_play@2x.png */,
+				E26E5C901A94BFC3005C3C26 /* background_1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E5E1776F2308C42825AE6CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC81F6E9C9DBCA32E148E8EE /* libPods-AutoRadio.a */,
+				AD4837B209E0FB97CC6CB729 /* libPods-AutoRadioTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E21237C51A8E2CF9000E8574 /* AutoRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21237E91A8E2CFA000E8574 /* Build configuration list for PBXNativeTarget "AutoRadio" */;
+			buildPhases = (
+				B1A23456F041B4B37020CA34 /* [CP] Check Pods Manifest.lock */,
+				E21237C21A8E2CF9000E8574 /* Sources */,
+				E21237C31A8E2CF9000E8574 /* Frameworks */,
+				E21237C41A8E2CF9000E8574 /* Resources */,
+				C91D99B766C472E62CA05C6D /* [CP] Copy Pods Resources */,
+				9DB93934826E23FEDE7C12B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoRadio;
+			productName = AutoRadio;
+			productReference = E21237C61A8E2CF9000E8574 /* Auto Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E21237DE1A8E2CFA000E8574 /* AutoRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21237EC1A8E2CFA000E8574 /* Build configuration list for PBXNativeTarget "AutoRadioTests" */;
+			buildPhases = (
+				E7D889FEA48C8C60BC763C1E /* [CP] Check Pods Manifest.lock */,
+				E21237DB1A8E2CFA000E8574 /* Sources */,
+				E21237DC1A8E2CFA000E8574 /* Frameworks */,
+				E21237DD1A8E2CFA000E8574 /* Resources */,
+				4107D5DAF384CB56555542CF /* [CP] Embed Pods Frameworks */,
+				FF510F027859A7CA3AE5F78D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21237E11A8E2CFA000E8574 /* PBXTargetDependency */,
+			);
+			name = AutoRadioTests;
+			productName = AutoRadioTests;
+			productReference = E21237DF1A8E2CFA000E8574 /* AutoRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21237BE1A8E2CF9000E8574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = POLA;
+				TargetAttributes = {
+					E21237C51A8E2CF9000E8574 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = ZLL4PW9M24;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					E21237DE1A8E2CFA000E8574 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = ZLL4PW9M24;
+						TestTargetID = E21237C51A8E2CF9000E8574;
+					};
+				};
+			};
+			buildConfigurationList = E21237C11A8E2CF9000E8574 /* Build configuration list for PBXProject "AutoRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E21237BD1A8E2CF9000E8574;
+			productRefGroup = E21237C71A8E2CF9000E8574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E21237C51A8E2CF9000E8574 /* AutoRadio */,
+				E21237DE1A8E2CFA000E8574 /* AutoRadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E21237C41A8E2CF9000E8574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26E5C9C1A9712B1005C3C26 /* btn_facebook.png in Resources */,
+				E21237D51A8E2CF9000E8574 /* Main.storyboard in Resources */,
+				E21237F01A8E3E7C000E8574 /* Avto_logo_103_2_eng_full-01.jpg in Resources */,
+				BAA689941B3B05900088424B /* Podfile in Resources */,
+				E21237DA1A8E2CF9000E8574 /* LaunchScreen.xib in Resources */,
+				0698C0AD1A9C7A0B0077D67A /* AUTORADIOAAC.pls in Resources */,
+				E26E5CA01A9712B1005C3C26 /* btn_play.png in Resources */,
+				E26E5C9F1A9712B1005C3C26 /* btn_instagram@2x.png in Resources */,
+				E26E5CA51A971510005C3C26 /* btn_stop@2x.png in Resources */,
+				E26E5CA11A9712B1005C3C26 /* btn_play@2x.png in Resources */,
+				E26E5CA41A971510005C3C26 /* btn_stop.png in Resources */,
+				E26E5CAD1A972554005C3C26 /* btn_SMS@2x.png in Resources */,
+				E26E5CAC1A972554005C3C26 /* btn_SMS.png in Resources */,
+				E26E5CAB1A972554005C3C26 /* btn_call@2x.png in Resources */,
+				8E17330A1A977DFD00C55DD8 /* Default@2x.png in Resources */,
+				8E1733081A977DFD00C55DD8 /* Default-568h@2x.png in Resources */,
+				EE4D31A21FD9B072000A81BC /* splash.png in Resources */,
+				E26E5C911A94BFC3005C3C26 /* background_1.png in Resources */,
+				E26E5C9D1A9712B1005C3C26 /* btn_facebook@2x.png in Resources */,
+				E26E5C9E1A9712B1005C3C26 /* btn_instagram.png in Resources */,
+				E26E5CAF1A973B68005C3C26 /* background.PNG in Resources */,
+				E21237D71A8E2CF9000E8574 /* Images.xcassets in Resources */,
+				E26E5CAA1A972554005C3C26 /* btn_call.png in Resources */,
+				8E1733091A977DFD00C55DD8 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21237DD1A8E2CFA000E8574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4107D5DAF384CB56555542CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoRadioTests/Pods-AutoRadioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB93934826E23FEDE7C12B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoRadio/Pods-AutoRadio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A23456F041B4B37020CA34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoRadio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C91D99B766C472E62CA05C6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoRadio/Pods-AutoRadio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D889FEA48C8C60BC763C1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoRadioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF510F027859A7CA3AE5F78D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoRadioTests/Pods-AutoRadioTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E21237C21A8E2CF9000E8574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CE862C1A8F5D040057C52E /* PlayViewController.m in Sources */,
+				E21237D21A8E2CF9000E8574 /* ViewController.m in Sources */,
+				E21237CF1A8E2CF9000E8574 /* AppDelegate.m in Sources */,
+				E21237CC1A8E2CF9000E8574 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21237DB1A8E2CFA000E8574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21237E61A8E2CFA000E8574 /* AutoRadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E21237E11A8E2CFA000E8574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E21237C51A8E2CF9000E8574 /* AutoRadio */;
+			targetProxy = E21237E01A8E2CFA000E8574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E21237D31A8E2CF9000E8574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21237D41A8E2CF9000E8574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E21237D81A8E2CF9000E8574 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21237D91A8E2CF9000E8574 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E21237E71A8E2CFA000E8574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alaa Nagawa (ZLL4PW9M24)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alaa Nagawa (ZLL4PW9M24)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "516e20ac-d14b-4af3-94d9-dbc593a981c2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E21237E81A8E2CFA000E8574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alaa Nagawa (ZLL4PW9M24)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alaa Nagawa (ZLL4PW9M24)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "516e20ac-d14b-4af3-94d9-dbc593a981c2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E21237EA1A8E2CFA000E8574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167BA78FD229D92E15103403 /* Pods-AutoRadio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZLL4PW9M24;
+				INFOPLIST_FILE = AutoRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoradio.app;
+				PRODUCT_NAME = "Auto Radio";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		E21237EB1A8E2CFA000E8574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30920D397B4E0B5E58DB77AD /* Pods-AutoRadio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZLL4PW9M24;
+				INFOPLIST_FILE = AutoRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoradio.app;
+				PRODUCT_NAME = "Auto Radio";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		E21237ED1A8E2CFA000E8574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28BD6FE58EDFD34586A251D /* Pods-AutoRadioTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoradio.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoRadio.app/AutoRadio";
+			};
+			name = Debug;
+		};
+		E21237EE1A8E2CFA000E8574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18857355ED8FF1CB98CF81F1 /* Pods-AutoRadioTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoradio.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoRadio.app/AutoRadio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E21237C11A8E2CF9000E8574 /* Build configuration list for PBXProject "AutoRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21237E71A8E2CFA000E8574 /* Debug */,
+				E21237E81A8E2CFA000E8574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21237E91A8E2CFA000E8574 /* Build configuration list for PBXNativeTarget "AutoRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21237EA1A8E2CFA000E8574 /* Debug */,
+				E21237EB1A8E2CFA000E8574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21237EC1A8E2CFA000E8574 /* Build configuration list for PBXNativeTarget "AutoRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21237ED1A8E2CFA000E8574 /* Debug */,
+				E21237EE1A8E2CFA000E8574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E21237BE1A8E2CF9000E8574 /* Project object */;
+}
